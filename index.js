@@ -1,8 +1,9 @@
 require('dotenv').config();
-const express = require('express');
+// const express = require('express');
 
-const server = express();
-server.use(express.json());
+// const server = express();
+const server = require('./api/server');
+// server.use(express.json());
 
 
 server.get('/', (req, res, next) => {
