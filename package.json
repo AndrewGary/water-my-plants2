@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/AndrewGary/water-my-plants2#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
-    "dotenv": "^16.0.0"
   }
 }
