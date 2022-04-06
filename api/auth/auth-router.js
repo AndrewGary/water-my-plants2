@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-router.post('/register', (req, res, next) => {
+router.get('/register', (req, res, next) => {
     res.status(200).json({ message: 'TESTTTTT'})
 })
 
